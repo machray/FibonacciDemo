@@ -9,6 +9,7 @@ public class FibonacciImpl extends Fibonacci {
 		setValue2(1);
 	}
 
+	// prints out the fibonacci sequence until it hits 1000000000 
 	public void sequence() {
 		if (getValue1() == 0) {
 			System.out.println(getValue1());
